@@ -1,0 +1,286 @@
+.navbar {
+    position: fixed;
+    top: 0%;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 0px 8px rgb(0 0 0 /6%);
+}
+
+ul {
+    list-style-type: none;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    margin: 2% 0%;
+    padding: 6% 0%;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: #dcdfb7;
+}
+
+.banner .image img {
+    width: 190%;
+    margin-left: -350px;
+}
+
+.banner .content {
+    font-family: 'Lato', sans-serif;
+    padding: 30% 5%;
+}
+
+.banner .content .title {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.banner .content .title span {
+    font-weight: 800;
+    animation:changecol 10s linear infinite;
+}
+@keyframes changecol{
+0%{ color: yellow;}
+20%{color: red;}
+40%{color: blue;}
+60%{color:whitesmoke}
+80%{color:black}
+100%{color: rgb(69, 149, 55);}
+
+}
+
+.banner .content .desc {
+    font-size: 26px;
+    margin-bottom: 8%;
+}
+
+.banner .content .btn {
+    color: cyan;
+    background-color: #6b8363;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    padding: 2% 5%;
+    text-transform: uppercase;
+    margin-left: -1.8%;
+}
+
+
+
+.About {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.About .image img {
+    width: 80%;
+}
+
+.About .content {
+    padding: 8% 15%;
+    font-family: 'Lato', sans-serif;
+}
+
+.About .content .title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.skills .content {
+    padding: 2% 10%;
+    font-family: 'Lato', sans-serif;
+    background-color: #dcdfb7;
+
+}
+
+.skills .content .title {
+    margin-top: 0%;
+    font-weight: 800;
+    text-align: center;
+    font-size: 28px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 10px 20px;
+    margin-right: 6%;
+}
+
+.skills .grid-container .grid-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    border-bottom: 5px solid #6b8363;
+    padding: 7% 6%;
+    background: #fff;
+
+}
+
+.skills .grid-container .grid-item .fa-brands {
+    margin-right: 8%;
+    font-size: 19px;
+    color: #6b8363;
+
+}
+
+
+/*contact sec*/
+
+.contact {
+    background-color: #dcdfb7;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+#btn2 {
+    color: white;
+    background-color: #6b8363;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    padding: 1% 4%;
+}
+#btn2:hover{
+    background-color: transparent;
+    color: red;
+    border: 2px solid blue;
+}
+
+.contact .image img {
+    width: 60%;
+    margin-left: 18%;
+}
+
+.contact .content .title_1 {
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.contact .title {
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+#email{
+    border: 1px solid #ccc;
+}
+#email:hover{
+    border: 2px solid red;
+}
+#message{
+    border: 1px solid #ccc;
+}
+#message:hover{
+    border: 2px solid rgb(12, 5, 226);
+}
+
+
+/* footer */
+.footer {
+    margin-bottom: 0px;
+    background-color: #6b8363;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.upper h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+.upper p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.social li{
+    margin: 0 10px;
+
+}
+
+.social a{
+    text-decoration: none;
+    color: #fff;
+}
+.social a i{
+      font-size: 1.1rem;
+      transition: color .4s ease;
+}
+
+.social a:hover i{
+
+    color: aqua;
+}
+
+body{
+    margin-bottom: 0px;
+}
+
+
+
+.CV {
+    background-color:#6b8363;
+    color: cyan;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    padding: 2% 5%;
+    margin-left: 5%;
+}
+.upper{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upper a{
+    padding: 1%;
+}
+.upper a i{
+    font-size: 30px;
+    color: black;
+    height: 10px;
+}
